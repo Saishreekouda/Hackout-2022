@@ -1,22 +1,20 @@
-//HEADER SECTION
 
-      $(window).scroll(function(){
-        $('nav').toggleClass('scrolled',$(this).scrollTop()>50)
-      });
-      $(document).ready(function(){       
-        var scroll_pos = 0;
-        $(document).scroll(function() { 
-            scroll_pos = $(this).scrollTop();
-            if(scroll_pos < 50) {
-                $('.hvr-reveal').css('color', '#0000');
-                $('.navbar-toggler-icon').css('background-image',' url("img/black.png")')
-            } else {
-                $('.hvr-reveal').css('color', '#fff');
-                $('.navbar-toggler-icon').css('background-image',' url("img/white.png")')
-            }
-        });
-    });
-    
+ $(window).scroll(function(){
+  $('nav').toggleClass('scrolled',$(this).scrollTop()>50)
+});
+$(document).ready(function(){       
+  var scroll_pos = 0;
+  $(document).scroll(function() { 
+      scroll_pos = $(this).scrollTop();
+      if(scroll_pos < 50) {
+          $('.hvr-reveal').css('color', '#fff');
+          $('.navbar-toggler-icon').css('background-image',' url("img/white.png")')
+      } else {
+          $('.hvr-reveal').css('color', '#fff');
+          $('.navbar-toggler-icon').css('background-image',' url("img/white.png")')
+      }
+  });
+});
 
 
 //PLACEMENT STATS JS
@@ -50,19 +48,21 @@ $(window).scroll(function () {
 })
 
 
+
 //HOW IT WORKS
 
-window.onload = function digital_fn(){
+// window.onload = function digital_fn(){
 
-  // toggle button
-  let toggle = document.querySelector("#nav .toggle-btn");
-  let collapse = document.querySelector("#nav .collapse");
+//   // toggle button
+//   let toggle = document.querySelector("#nav .toggle-btn");
+//   let collapse = document.querySelector("#nav .collapse");
 
-  toggle.addEventListener('click', function(event){
-      collapse.classList.toggle('active')
-      // console.log(toggle)
-  });
+//   toggle.addEventListener('click', function(event){
+//       collapse.classList.toggle('active')
+//       // console.log(toggle)
+//   });
 
-}
+// }
+
 
 //testimonial
