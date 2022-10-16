@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family:'Poppins',sans-serif;
+}
+html{
+    background: rgb(0,0,0);
+}
+body{
+   
+    margin:0;
+    padding:0;
+}
+ .campaign1{
+    margin-top: 4rem;
+ }
+.section2{
+    margin-top: rem;
+}
+.text1 {
+    position: absolute;
+    top: 40%;
+    right: 8%;
+    left: 70%;
+    color: black;
+    /* left: 10%; */
+    /* transform: translate(-50%,-50%); */
+}
+
+.text1 h3 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.text1 p {
+    padding: 36px;
+    font-size: 2vh;
+    letter-spacing: 0.5px;
+}
+.section1{
+    background-color: rgb(255, 244, 223);
+    opacity: 0.9;
+    width: 100%; 
+}
+.heading{
+    font-size: 250%;
+    margin-top:50%;
+    margin-bottom: 50%;
+    text-align: center;
+}
+.img-heading h1{
+    margin-top:50%;
+    margin-bottom: 50%;
+    text-transform: uppercase;
+}
+.main-heading{
+    padding-top: 4rem;
+    text-transform: capitalize;
+    font-size: 225%;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.image-container{
+    position: relative;
+}
+.card{
+    overflow: hidden;
+}
+.card-img-top{
+    transition:0.5s ease;
+    backface-visibility: hidden;
+}
+.ho:hover{
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.5s ease !important;
+    -webkit-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+    z-index: 2;
+}
+.overlay{
+    transition: 0.5s ease;
+    opacity: 0;
+    position:absolute;
+    top:50%;
+    left: 50%;
+}
+
+
+a{
+    transition: 0.5s ease;
+}
+a:hover{
+    opacity: 0.6;   
+}
+@media(max-width: 992px){
+    .img-heading h1{
+        font-size: 1.5rem;
+    }
+    .main-heading{
+        font-size: 2rem;
+    }
+}
+@media(max-width: 768px){
+    .img-heading h1{
+        font-size: 1.2rem;
+    }
+    .main-heading{
+        font-size: 1.75rem;
+    }
+}
+@media(max-width: 576px){
+    .img-heading h1{
+        font-size: 1rem;
+    }
+    .main-heading{
+        font-size: 1.5rem;
+    }
+}
