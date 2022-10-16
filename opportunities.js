@@ -1,9 +1,3 @@
-// const heart1=document.getElementsByClassName("btn btn-light btn-square me-3")
-// function heart() {
-//     heart1.style.color = "red";
-// }
-
-
 (function ($) {
     "use strict";
 
